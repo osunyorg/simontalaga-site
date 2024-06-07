@@ -13,8 +13,4 @@ items:
   target: "/organisations/"
   kind: page
   children: []
-- title: Curriculum Vitæ
-  target: "/curriculum-vitae/"
-  kind: page
-  children: []
 
