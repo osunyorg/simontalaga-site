@@ -5,6 +5,7 @@ allowed_domains:
   - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
+  - "cdn.jsdelivr.net"
   - "perso.ens-lyon.fr"
   - "www.sciencedirect.com"
   - "processing.org"
