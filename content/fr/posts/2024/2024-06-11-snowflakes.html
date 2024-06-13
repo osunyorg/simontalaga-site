@@ -115,12 +115,12 @@ contents:
   - kind: block
     template: embed
     title: >-
-      
+      Hydration
     ranks:
-      self: false
+      self: 3
     data:
       code: >-
-        
+        <script type="module"><br>	async function initSnowflakes() {<br>		const { Snowflakes } = await import("https://cdn.jsdelivr.net/gh/osunyorg/simontalaga-site@main/assets/js/bundle.js");<br>		<br>		const app = new Snowflakes({<br>			target: document.body,<br>			hydrate: true<br>		});<br>	}<br><br>	initSnowflakes();<br></script>
 
       transcription: >-
         
