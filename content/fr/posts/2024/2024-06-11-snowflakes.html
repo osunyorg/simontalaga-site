@@ -42,20 +42,28 @@ summary: >-
   <p>Test snowflakes 2</p>
 
 contents_reading_time:
-  seconds: 1
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Titre 2
-    slug: "titre-2"
-    position: 1
-    rank: 2
+    slug: >-
+      titre-2
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Toast
+    slug: >-
+      toast
     ranks:
       self: 3
     data:
@@ -75,17 +83,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Test
-    slug: "test"
-    position: 2
-    rank: 2
+    slug: >-
+      test
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: embed
     title: >-
       Explorable explanation
+    slug: >-
+      explorable-explanation
     ranks:
       self: 3
     data:
@@ -104,6 +119,8 @@ contents:
     template: embed
     title: >-
       Hydration
+    slug: >-
+      hydration
     ranks:
       self: 3
     data:
@@ -115,7 +132,6 @@ contents:
 
       transcription: >-
         
-
 
 
 
