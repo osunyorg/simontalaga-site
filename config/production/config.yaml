@@ -2,6 +2,11 @@
 
 baseURL: https://simontalaga-site.web.deuxfleurs.fr
 
+## OSUNY
+osuny:
+  website:
+    id: d888a6d0-905c-4a5f-9366-38553eb051cf
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
